@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+body{
+    background-color: black;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    flex-wrap: wrap;
+   
+}
+.left-box{
+    display: flex;
+    align-items: center;
+}
+.right-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.word1{
+    color: #e7e9ea;
+    font-size: 64px;
+    font-weight: 900;
+  }
+  .word2{
+      color: #e7e9ea;
+      font-size: 31px;
+      font-weight: 900;
+}
+      
+.btn-box{
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+.logo{
+    height: 18px;
+    width: 18px;
+  }
+.btn{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    background-color: white;
+    height: 40px;
+    width: 290px;
+    padding:10px;
+    border-radius: 20px;
+    border:none;
+}
+
+.or{
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+}
+.create{
+    background-color:#1d9bf0;
+    color: white;
+    padding:5px;
+    height: 40px;
+    width: 290px;
+    border-radius: 20px;
+    border: none;
+}
+p{
+    color: #71767b;
+    margin: 5px;
+    font-size: 11px;
+}
+.blue{
+    color: #1d9bf0;
+}
+.bottom{
+    display: flex;
+    margin-top:20px;
+    flex-direction: column;
+    gap: 20px;
+}
+.word3{
+    color:#fff;
+    font-size: 17px;
+    font-weight: 700;
+}
+.sign-in{
+    background-color: transparent;
+    color:#1d9bf0;
+    padding:5px;
+    height: 40px;
+    width: 290px;
+    border-radius: 20px;
+    border: 1px solid #71767b;
+}
+button:hover{
+    cursor: pointer;
+}
+footer{
+   color: #71767b;
+   position: relative;
+   top:80px;
+}
+a{
+    text-decoration: none;
+    color: #71767b;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+li{
+    font-size: 13px;
+    padding:3px;
+}
+a:hover{
+    text-decoration: underline;
+}
